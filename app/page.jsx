@@ -42,6 +42,22 @@ export default function MasalRehberi() {
 
   return (
     <>
+      {/* Sabit Dil Seçici (Ekranın Sağ Üstünde Her Zaman Görünür) */}
+<div className="fixed top-6 right-6 z-[110] flex border border-[#c8aa64] bg-[#0d0b08]/90 backdrop-blur-md shadow-lg shadow-black/50">
+  <button 
+    onClick={() => handleSetLang('tr')} 
+    className={`px-4 py-2 text-[0.65rem] tracking-[0.2em] transition-all ${lang === 'tr' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
+  >
+    TR
+  </button>
+  <button 
+    onClick={() => handleSetLang('en')} 
+    className={`px-4 py-2 text-[0.65rem] tracking-[0.2em] transition-all ${lang === 'en' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
+  >
+    EN
+  </button>
+</div>
+
       {/* ── MODAL (Eser Detayı) ── */}
       <div className={`modal-overlay ${activeArtifact ? 'open' : ''}`} onClick={(e) => { if(e.target === e.currentTarget) closeModal(); }}>
         <div className="modal">
@@ -61,11 +77,13 @@ export default function MasalRehberi() {
                   <div className="audio-player">
                      {/* Orijinal tasarımdaki kutunun içine modern ve sorunsuz çalışan ses oynatıcıyı yerleştirdik */}
                      <audio 
-                       ref={audioRef}
-                       src={lang === 'tr' ? activeArtifact.audio_tr : activeArtifact.audio_en}
-                       controls
-                       className="w-full outline-none grayscale opacity-80"
-                     />
+  key={`${activeArtifact.id}-${lang}`} // Bu satır dil değişince sesin yenilenmesini sağlar
+  ref={audioRef}
+  src={lang === 'tr' ? activeArtifact.audio_tr : activeArtifact.audio_en}
+  controls
+  className="w-full outline-none grayscale opacity-80"
+/>
+
                   </div>
                 </div>
               </div>
