@@ -41,31 +41,23 @@ export default function MasalRehberi() {
 
   return (
     <>
-      {/* ── SAĞ ÜST SABİT VE BÜYÜK DİL SEÇİCİ ── */}
-      <div className="fixed top-5 right-5 z-[9999] flex border border-[#c8aa64] bg-[#0d0b08]/95 backdrop-blur-md shadow-2xl rounded-sm">
-        <button 
-          onClick={() => handleSetLang('tr')} 
-          className={`px-5 py-3 text-sm tracking-[0.2em] transition-all ${lang === 'tr' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
-        >
-          TR
-        </button>
-        <button 
-          onClick={() => handleSetLang('en')} 
-          className={`px-5 py-3 text-sm tracking-[0.2em] transition-all ${lang === 'en' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
-        >
-          EN
-        </button>
+            {/* ── KESİN ÇÖZÜM: SAĞ ÜST BÜYÜK DİL SEÇİCİ ── */}
+      <div style={{ position: 'fixed', top: '15px', right: '15px', zIndex: 99999, display: 'flex', gap: '5px', background: 'rgba(13, 11, 8, 0.95)', padding: '6px', border: '1px solid #c8aa64' }}>
+        <button onClick={() => handleSetLang('tr')} style={{ padding: '12px 20px', fontSize: '16px', letterSpacing: '2px', fontWeight: 'bold', background: lang === 'tr' ? '#c8aa64' : 'transparent', color: lang === 'tr' ? '#0d0b08' : '#c8aa64', border: 'none' }}>TR</button>
+        <button onClick={() => handleSetLang('en')} style={{ padding: '12px 20px', fontSize: '16px', letterSpacing: '2px', fontWeight: 'bold', background: lang === 'en' ? '#c8aa64' : 'transparent', color: lang === 'en' ? '#0d0b08' : '#c8aa64', border: 'none' }}>EN</button>
       </div>
+
 
       {/* ── MODAL (Eser Detayı) ── */}
       <div className={`modal-overlay ${activeArtifact ? 'open' : ''}`} onClick={(e) => { if(e.target === e.currentTarget) closeModal(); }}>
         <div className="modal">
-          {/* Çarpı (X) butonunu sola aldık ki sağ üstteki büyük dil butonuyla çakışmasın */}
-          <button className="modal-close" style={{ left: '1.2rem', right: 'auto' }} onClick={closeModal}>✕</button>
+                    {/* BÜYÜK ÇARPI VE KAYDIRILMIŞ BAŞLIK */}
+          <button className="modal-close" style={{ left: '15px', right: 'auto', top: '15px', width: '45px', height: '45px', fontSize: '22px' }} onClick={closeModal}>✕</button>
           
           {activeArtifact && (
             <>
-              <div className="modal-header">
+              <div className="modal-header" style={{ paddingTop: '80px' }}>
+
                 <div className="modal-era">{lang === 'tr' ? activeArtifact.era_tr : activeArtifact.era_en}</div>
                 <h2 className="modal-title">{lang === 'tr' ? activeArtifact.name_tr : activeArtifact.name_en}</h2>
                 <div className="modal-title-en">{lang === 'tr' ? activeArtifact.name_en : activeArtifact.name_tr}</div>
