@@ -15,7 +15,6 @@ export default function MasalRehberi() {
 
     if (savedLang) setLang(savedLang);
     
-    // QR'dan direkt bir esere gelindiyse Modal'ı aç
     if (idParam) {
       const found = artifacts.find(a => a.id == idParam);
       if (found) setActiveArtifact(found);
@@ -42,26 +41,27 @@ export default function MasalRehberi() {
 
   return (
     <>
-      {/* Sabit Dil Seçici (Ekranın Sağ Üstünde Her Zaman Görünür) */}
-<div className="fixed top-6 right-6 z-[110] flex border border-[#c8aa64] bg-[#0d0b08]/90 backdrop-blur-md shadow-lg shadow-black/50">
-  <button 
-    onClick={() => handleSetLang('tr')} 
-    className={`px-4 py-2 text-[0.65rem] tracking-[0.2em] transition-all ${lang === 'tr' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
-  >
-    TR
-  </button>
-  <button 
-    onClick={() => handleSetLang('en')} 
-    className={`px-4 py-2 text-[0.65rem] tracking-[0.2em] transition-all ${lang === 'en' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
-  >
-    EN
-  </button>
-</div>
+      {/* ── SAĞ ÜST SABİT VE BÜYÜK DİL SEÇİCİ ── */}
+      <div className="fixed top-5 right-5 z-[9999] flex border border-[#c8aa64] bg-[#0d0b08]/95 backdrop-blur-md shadow-2xl rounded-sm">
+        <button 
+          onClick={() => handleSetLang('tr')} 
+          className={`px-5 py-3 text-sm tracking-[0.2em] transition-all ${lang === 'tr' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
+        >
+          TR
+        </button>
+        <button 
+          onClick={() => handleSetLang('en')} 
+          className={`px-5 py-3 text-sm tracking-[0.2em] transition-all ${lang === 'en' ? 'bg-[#c8aa64] text-[#0d0b08] font-bold' : 'text-[#c8aa64] hover:bg-[#c8aa64]/10'}`}
+        >
+          EN
+        </button>
+      </div>
 
       {/* ── MODAL (Eser Detayı) ── */}
       <div className={`modal-overlay ${activeArtifact ? 'open' : ''}`} onClick={(e) => { if(e.target === e.currentTarget) closeModal(); }}>
         <div className="modal">
-          <button className="modal-close" onClick={closeModal}>✕</button>
+          {/* Çarpı (X) butonunu sola aldık ki sağ üstteki büyük dil butonuyla çakışmasın */}
+          <button className="modal-close" style={{ left: '1.2rem', right: 'auto' }} onClick={closeModal}>✕</button>
           
           {activeArtifact && (
             <>
@@ -75,15 +75,14 @@ export default function MasalRehberi() {
                 <div className="modal-audio-section">
                   <div className="modal-audio-label">{lang === 'tr' ? 'SESLİ TANITIM' : 'AUDIO GUIDE'}</div>
                   <div className="audio-player">
-                     {/* Orijinal tasarımdaki kutunun içine modern ve sorunsuz çalışan ses oynatıcıyı yerleştirdik */}
+                     {/* Ses oynatıcı artık dil değiştiğinde anında yeni sesi yükleyecek */}
                      <audio 
-  key={`${activeArtifact.id}-${lang}`} // Bu satır dil değişince sesin yenilenmesini sağlar
-  ref={audioRef}
-  src={lang === 'tr' ? activeArtifact.audio_tr : activeArtifact.audio_en}
-  controls
-  className="w-full outline-none grayscale opacity-80"
-/>
-
+                       key={`${activeArtifact.id}-${lang}`}
+                       ref={audioRef}
+                       src={lang === 'tr' ? activeArtifact.audio_tr : activeArtifact.audio_en}
+                       controls
+                       className="w-full outline-none grayscale opacity-80"
+                     />
                   </div>
                 </div>
               </div>
@@ -97,14 +96,8 @@ export default function MasalRehberi() {
         <div className="hero-line"></div>
         <div className="hero-label">{lang === 'tr' ? 'Kültürel Miras · Tunceli' : 'Cultural Heritage · Tunceli'}</div>
         
-        {/* Senin isteğin üzerine başlık güncellendi */}
         <h1 className="hero-title">Masal<br/><em>Rehberi</em></h1>
         <p className="hero-sub">{lang === 'tr' ? 'Tunceli Müzesi' : 'Tunceli Museum'}</p>
-
-        <div className="lang-selector">
-          <button className={`lang-btn ${lang === 'tr' ? 'active' : ''}`} onClick={() => handleSetLang('tr')}>Türkçe</button>
-          <button className={`lang-btn ${lang === 'en' ? 'active' : ''}`} onClick={() => handleSetLang('en')}>English</button>
-        </div>
 
         <div className="hero-scroll">
           <span>{lang === 'tr' ? 'Keşfet' : 'Explore'}</span>
@@ -164,7 +157,6 @@ export default function MasalRehberi() {
       <footer>
         <div className="footer-logo">Masal <span>Rehberi</span></div>
         <div className="footer-meta">{lang === 'tr' ? 'Tunceli Müzesi Dijital Rehber' : 'Tunceli Museum Digital Guide'}</div>
-        {/* Senin belirlediğin geliştirici imzası */}
         <div className="footer-meta mt-2" style={{opacity: 0.5}}>Geliştirici: orhanpala.com</div>
       </footer>
     </>
