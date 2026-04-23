@@ -1,26 +1,25 @@
-/* Google Fonts'tan Cormorant Garamond (Klasik Serif) ve Josefin Sans (Zarif Sans-Serif) fontlarını çekiyoruz */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap');
 
-/* Tailwind CSS'i dahil ediyoruz */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* BEĞENDİĞİN O PREMİUM RENK PALETİ VE FONT TANIMLAMALARI */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 :root {
-  --bg: #0d0b08; /* Tam referans koyuluk */
+  --bg: #0d0b08;
   --surface: #16130e;
   --card: #1e1a14;
-  --border: rgba(200,170,100,0.18); /* Zarif altın sınır */
-  --gold: #c8aa64; /* Ana asil altın rengi */
+  --border: rgba(200,170,100,0.18);
+  --gold: #c8aa64;
   --gold-light: #e8d090;
   --gold-dim: rgba(200,170,100,0.35);
   --text: #f0e8d8;
   --text-muted: #9a8e7a;
-  
-  /* Font Tercihleri */
-  --font-display: 'Cormorant Garamond', Georgia, serif; /* Başlıklar için klasik serif */
-  --font-ui: 'Josefin Sans', sans-serif; /* Arayüz metinleri için zarif sans-serif */
+  --red: #8b2020;
+  --red-light: #c23030;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-ui: 'Josefin Sans', sans-serif;
 }
 
 html { scroll-behavior: smooth; }
@@ -31,33 +30,238 @@ body {
   font-family: var(--font-ui);
   min-height: 100vh;
   overflow-x: hidden;
-  position: relative;
 }
 
-/* REFERANS FOTOĞRAFTAKİ O PÜRÜZSÜZ KIRMIZIMSI GRADYAN */
+/* ── Noise texture overlay ── */
 body::before {
   content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  /* Üstte hafif kırmızı, altta hafif altın gradyan */
-  background:
-    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(139,32,32,0.2) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 50% 110%, rgba(200,170,100,0.06) 0%, transparent 60%);
-  pointer-events: none;
-}
-
-/* Hafif kumlu/noise doku efekti (Gözü yormayan asalet) */
-body::after {
-  content: '';
-  position: fixed; inset: 0; z-index: -1;
+  position: fixed; inset: 0; z-index: 0;
   opacity: 0.035;
   pointer-events: none;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 200px;
 }
 
-/* Zarif Kaydırma Çubuğu (Scrollbar) */
-::-webkit-scrollbar { width: 4px; }
-::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--gold-dim); }
+/* ══════════════════════════════════════
+   HERO / HEADER
+══════════════════════════════════════ */
+.hero {
+  position: relative; z-index: 1;
+  min-height: 100vh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(139,32,32,0.25) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 50% 100%, rgba(200,170,100,0.08) 0%, transparent 60%);
+}
+
+.hero-line {
+  width: 1px;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, var(--gold));
+  margin: 0 auto 2.5rem;
+  animation: growDown 1.2s ease forwards;
+}
+@keyframes growDown { from { height: 0; opacity: 0; } to { height: 80px; opacity: 1; } }
+
+.hero-label {
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 300;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  opacity: 0; animation: fadeUp 0.8s 0.4s ease forwards;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  opacity: 0; animation: fadeUp 0.8s 0.6s ease forwards;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.hero-sub {
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  opacity: 0; animation: fadeUp 0.8s 0.8s ease forwards;
+}
+
+/* ── Language Selector ── */
+.lang-selector {
+  display: flex; gap: 1.2rem; margin-bottom: 3rem;
+  opacity: 0; animation: fadeUp 0.8s 1s ease forwards;
+}
+
+.lang-btn {
+  padding: 0.7rem 2.2rem;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--gold);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative; overflow: hidden;
+}
+
+.lang-btn::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: var(--gold);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.lang-btn:hover { color: var(--bg); }
+.lang-btn:hover::before { transform: scaleX(1); }
+
+.lang-btn.active {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.hero-scroll {
+  position: absolute; bottom: 2rem;
+  left: 50%; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+  font-size: 0.6rem; letter-spacing: 0.3em; color: var(--text-muted);
+  text-transform: uppercase;
+  opacity: 0; animation: fadeUp 0.8s 1.4s ease forwards;
+}
+
+.scroll-arrow {
+  width: 1px; height: 40px;
+  background: linear-gradient(to bottom, var(--gold-dim), transparent);
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ══════════════════════════════════════
+   SECTION DIVIDER & GRID
+══════════════════════════════════════ */
+.divider {
+  position: relative; z-index: 1;
+  display: flex; align-items: center; gap: 1.5rem;
+  padding: 0 2rem; max-width: 1100px; margin: 0 auto 3rem;
+}
+.divider-line { flex: 1; height: 1px; background: var(--border); }
+.divider-text { font-size: 0.65rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; }
+.divider-diamond { width: 6px; height: 6px; background: var(--gold); transform: rotate(45deg); }
+
+.artifacts-section { position: relative; z-index: 1; padding: 0 2rem 6rem; }
+.section-header { text-align: center; margin-bottom: 1rem; }
+.section-number { font-size: 0.65rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; }
+.section-title { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 300; color: var(--text); margin: 0.5rem 0 0.8rem; }
+.section-desc { font-size: 0.72rem; letter-spacing: 0.12em; color: var(--text-muted); max-width: 500px; margin: 0 auto; line-height: 1.8; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5px;
+  max-width: 1100px;
+  margin: 4rem auto 0;
+  border: 1px solid var(--border);
+  background: var(--border); /* Gaping efekti için */
+}
+
+/* ── Artifact Card ── */
+.card {
+  background: var(--card); padding: 0; cursor: pointer; position: relative; overflow: hidden;
+  transition: background 0.3s ease; border: 0.5px solid var(--border); display: flex; flex-direction: column;
+}
+.card:hover { background: #231f17; }
+.card-image-wrap { overflow: hidden; position: relative; }
+.card-placeholder {
+  width: 100%; aspect-ratio: 4/3; background: linear-gradient(135deg, #1e1a14 0%, #2a2318 50%, #1e1a14 100%);
+  display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;
+}
+.card-placeholder::before {
+  content: ''; position: absolute; inset: 0;
+  background: repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(200,170,100,0.03) 20px, rgba(200,170,100,0.03) 21px);
+}
+.placeholder-icon { font-size: 3rem; opacity: 0.15; }
+.card-number {
+  position: absolute; top: 1rem; left: 1rem; font-size: 0.6rem; letter-spacing: 0.3em;
+  color: var(--gold); background: rgba(13,11,8,0.85); padding: 0.3rem 0.7rem;
+  font-family: var(--font-ui); font-weight: 300; text-transform: uppercase; backdrop-filter: blur(4px);
+}
+.card-body { padding: 1.5rem 1.8rem 1.8rem; flex: 1; display: flex; flex-direction: column; }
+.card-era { font-size: 0.6rem; letter-spacing: 0.3em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.6rem; }
+.card-name { font-family: var(--font-display); font-size: 1.35rem; font-weight: 400; color: var(--text); line-height: 1.2; margin-bottom: 0.8rem; }
+.card-name-en { font-family: var(--font-display); font-style: italic; font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1rem; }
+.card-desc { font-size: 0.74rem; line-height: 1.9; color: var(--text-muted); flex: 1; margin-bottom: 1.5rem; }
+.card-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 1rem; border-top: 1px solid var(--border); }
+.card-audio { display: flex; align-items: center; gap: 0.7rem; }
+.audio-btn {
+  width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--gold-dim); background: transparent; color: var(--gold);
+  cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; transition: all 0.25s ease;
+}
+.card:hover .audio-btn { border-color: var(--gold); }
+.audio-label { font-size: 0.62rem; letter-spacing: 0.2em; color: var(--text-muted); text-transform: uppercase; }
+.card-arrow {
+  width: 32px; height: 32px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); font-size: 0.85rem; transition: all 0.25s ease;
+}
+.card:hover .card-arrow { border-color: var(--gold); color: var(--gold); transform: translate(2px, -2px); }
+
+/* ══════════════════════════════════════
+   MODAL & FOOTER
+══════════════════════════════════════ */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,0.85); display: flex; align-items: center; justify-content: center;
+  padding: 1.5rem; opacity: 0; pointer-events: none; transition: opacity 0.35s ease; backdrop-filter: blur(8px);
+}
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal {
+  background: var(--surface); border: 1px solid var(--border); max-width: 800px; width: 100%;
+  max-height: 90vh; overflow-y: auto; position: relative; transform: translateY(30px); transition: transform 0.35s ease;
+}
+.modal-overlay.open .modal { transform: translateY(0); }
+.modal-close {
+  position: absolute; top: 1.2rem; right: 1.2rem; width: 36px; height: 36px; border: 1px solid var(--border);
+  background: transparent; color: var(--text-muted); cursor: pointer; display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; transition: all 0.2s; z-index: 1;
+}
+.modal-close:hover { border-color: var(--gold); color: var(--gold); }
+.modal-header { padding: 3rem 3rem 2rem; border-bottom: 1px solid var(--border); }
+.modal-era { font-size: 0.6rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.8rem; }
+.modal-title { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 300; line-height: 1.1; color: var(--text); margin-bottom: 0.4rem; }
+.modal-title-en { font-family: var(--font-display); font-style: italic; font-size: 1.1rem; color: var(--text-muted); }
+.modal-body { padding: 2.5rem 3rem; }
+.modal-description { font-size: 0.85rem; line-height: 2; color: var(--text-muted); margin-bottom: 2.5rem; font-family: var(--font-display); font-weight: 300; letter-spacing: 0.02em; }
+.modal-audio-label { font-size: 0.6rem; letter-spacing: 0.35em; color: var(--gold); text-transform: uppercase; margin-bottom: 1rem; }
+.audio-player { padding: 1rem; border: 1px solid var(--border); background: rgba(200,170,100,0.03); }
+
+footer { position: relative; z-index: 1; padding: 3rem 2rem; border-top: 1px solid var(--border); text-align: center; }
+.footer-logo { font-family: var(--font-display); font-size: 1.4rem; font-weight: 300; color: var(--text-muted); margin-bottom: 0.8rem; }
+.footer-logo span { color: var(--gold); }
+.footer-meta { font-size: 0.62rem; letter-spacing: 0.25em; color: var(--text-muted); text-transform: uppercase; }
+
+@media (max-width: 600px) {
+  .modal-header, .modal-body { padding: 2rem 1.5rem; }
+}
