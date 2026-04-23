@@ -1,21 +1,26 @@
+/* Google Fonts'tan Cormorant Garamond (Klasik Serif) ve Josefin Sans (Zarif Sans-Serif) fontlarını çekiyoruz */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap');
 
+/* Tailwind CSS'i dahil ediyoruz */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* BEĞENDİĞİN O PREMİUM RENK PALETİ VE FONT TANIMLAMALARI */
 :root {
-  --bg: #0d0b08;
+  --bg: #0d0b08; /* Tam referans koyuluk */
   --surface: #16130e;
   --card: #1e1a14;
-  --border: rgba(200,170,100,0.18);
-  --gold: #c8aa64;
+  --border: rgba(200,170,100,0.18); /* Zarif altın sınır */
+  --gold: #c8aa64; /* Ana asil altın rengi */
   --gold-light: #e8d090;
   --gold-dim: rgba(200,170,100,0.35);
   --text: #f0e8d8;
   --text-muted: #9a8e7a;
-  --font-display: 'Cormorant Garamond', Georgia, serif;
-  --font-ui: 'Josefin Sans', sans-serif;
+  
+  /* Font Tercihleri */
+  --font-display: 'Cormorant Garamond', Georgia, serif; /* Başlıklar için klasik serif */
+  --font-ui: 'Josefin Sans', sans-serif; /* Arayüz metinleri için zarif sans-serif */
 }
 
 html { scroll-behavior: smooth; }
@@ -26,10 +31,24 @@ body {
   font-family: var(--font-ui);
   min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
 }
 
-/* Arka plandaki o hafif kumlu/noise doku efekti */
+/* REFERANS FOTOĞRAFTAKİ O PÜRÜZSÜZ KIRMIZIMSI GRADYAN */
 body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  /* Üstte hafif kırmızı, altta hafif altın gradyan */
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(139,32,32,0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 50% 110%, rgba(200,170,100,0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Hafif kumlu/noise doku efekti (Gözü yormayan asalet) */
+body::after {
   content: '';
   position: fixed; inset: 0; z-index: -1;
   opacity: 0.035;
@@ -38,7 +57,7 @@ body::before {
   background-size: 200px;
 }
 
-/* Kaydırma Çubuğu (Scrollbar) Tasarımı */
+/* Zarif Kaydırma Çubuğu (Scrollbar) */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--gold-dim); }
