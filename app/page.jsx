@@ -81,9 +81,9 @@ export default function MasalRehberi() {
                 <h2 className="modal-title">{lang === 'tr' ? activeArtifact.name_tr : activeArtifact.name_en}</h2>
                 <div className="modal-title-en">{lang === 'tr' ? activeArtifact.name_en : activeArtifact.name_tr}</div>
               </div>
-              <div className="modal-body">
-                <p className="modal-description">{lang === 'tr' ? activeArtifact.desc_tr : activeArtifact.desc_en}</p>
-                <div className="modal-audio-section">
+                           <div className="modal-body">
+                {/* 1. ÖNCE SESLİ TANITIM EKRANI */}
+                <div className="modal-audio-section" style={{ marginBottom: '2.5rem' }}>
                   <div className="modal-audio-label">{lang === 'tr' ? 'SESLİ TANITIM' : 'AUDIO GUIDE'}</div>
                   <div className="audio-player">
                      <audio 
@@ -95,7 +95,13 @@ export default function MasalRehberi() {
                      />
                   </div>
                 </div>
+
+                {/* 2. SONRA ESER AÇIKLAMASI */}
+                <p className="modal-description" style={{ marginBottom: '0' }}>
+                  {lang === 'tr' ? activeArtifact.desc_tr : activeArtifact.desc_en}
+                </p>
               </div>
+
             </>
           )}
         </div>
