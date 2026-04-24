@@ -145,12 +145,15 @@ export default function MasalRehberi() {
         </div>
       </section>
 
-      {/* ── FOOTER ── */}
+            {/* ── FOOTER ── */}
       <footer>
         <div className="footer-logo">Masal <span>Rehberi</span></div>
         <div className="footer-meta">{lang === 'tr' ? 'Tunceli Müzesi Dijital Rehber' : 'Tunceli Museum Digital Guide'}</div>
-        <div className="footer-meta mt-2" style={{opacity: 0.5}}>Geliştirici: orhanpala.com</div>
+        <div className="footer-meta mt-2" style={{opacity: 0.8}}>
+          Geliştirici: <a href="https://orhanpala.com" target="_blank" rel="noopener noreferrer" style={{ color: '#c8aa64', textDecoration: 'underline' }}>orhanpala.com</a>
+        </div>
       </footer>
+
     </>
   );
 }
