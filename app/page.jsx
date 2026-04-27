@@ -96,11 +96,21 @@ export default function MasalRehberi() {
                   </div>
                 </div>
 
-                {/* 2. SONRA ESER AÇIKLAMASI */}
+                                {/* 2. SONRA ESER AÇIKLAMASI */}
                 <p className="modal-description" style={{ marginBottom: '0' }}>
                   {lang === 'tr' ? activeArtifact.desc_tr : activeArtifact.desc_en}
                 </p>
+
+                {/* 3. KAYNAKÇA / ALINTI METNİ */}
+                <div style={{ marginTop: '2.5rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(200, 170, 100, 0.3)' }}>
+                  <p style={{ fontSize: '0.8rem', color: 'rgba(240, 232, 216, 0.6)', fontStyle: 'italic', lineHeight: '1.6', margin: 0 }}>
+                    {lang === 'tr' 
+                      ? "Bu çalışmada hazırladığımız sesli masal projesinde, Tunceli’den Derlenen Masallar (Metin-İnceleme) adlı doktora tezinden yararlanılmıştır. Yılmaz Kaval tarafından hazırlanan bu tez, masalların içerik ve yapı açısından anlaşılmasına katkı sağlamış ve çalışmamıza kaynaklık etmiştir. Eser, Uşak Üniversitesi Sosyal Bilimler Enstitüsü bünyesinde, danışman Derya Özcan eşliğinde hazırlanmıştır (2019)."
+                      : "In this audio tale project, the doctoral thesis titled 'Tales Compiled from Tunceli (Text-Analysis)' was utilized. This thesis, prepared by Yılmaz Kaval, contributed to the understanding of the tales in terms of content and structure and served as a source for our work. The work was prepared at Uşak University Institute of Social Sciences under the supervision of Derya Özcan (2019)."}
+                  </p>
+                </div>
               </div>
+
 
             </>
           )}
