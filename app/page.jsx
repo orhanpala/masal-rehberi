@@ -175,6 +175,16 @@ export default function MasalRehberi() {
         </div>
       </section>
 
+            {/* ── AKADEMİK KAYNAKÇA BÖLÜMÜ (ANA SAYFA) ── */}
+      <section style={{ padding: '4rem 2rem', borderTop: '1px solid rgba(200, 170, 100, 0.2)', maxWidth: '1100px', margin: '0 auto' }}>
+        <p style={{ fontSize: '0.85rem', color: 'rgba(240, 232, 216, 0.5)', fontStyle: 'italic', lineHeight: '1.8', textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
+          {lang === 'tr' 
+            ? "Bu çalışmada hazırladığımız sesli masal projesinde, Tunceli’den Derlenen Masallar (Metin-İnceleme) adlı doktora tezinden yararlanılmıştır. Yılmaz Kaval tarafından hazırlanan bu tez, masalların içerik ve yapı açısından anlaşılmasına katkı sağlamış ve çalışmamıza kaynaklık etmiştir. Eser, Uşak Üniversitesi Sosyal Bilimler Enstitüsü bünyesinde, danışman Derya Özcan eşliğinde hazırlanmıştır (2019)."
+            : "In this audio tale project, the doctoral thesis titled 'Tales Compiled from Tunceli (Text-Analysis)' was utilized. This thesis, prepared by Yılmaz Kaval, contributed to the understanding of the tales in terms of content and structure and served as a source for our work. The work was prepared at Uşak University Institute of Social Sciences under the supervision of Derya Özcan (2019)."}
+        </p>
+      </section>
+
+      {/* ── FOOTER ── */}
       <footer>
         <div className="footer-logo">Masal <span>Rehberi</span></div>
         <div className="footer-meta">{lang === 'tr' ? 'Tunceli Müzesi Dijital Rehber' : 'Tunceli Museum Digital Guide'}</div>
@@ -182,6 +192,7 @@ export default function MasalRehberi() {
           Geliştirici: <a href="https://orhanpala.com" target="_blank" rel="noopener noreferrer" style={{ color: '#c8aa64', textDecoration: 'underline' }}>orhanpala.com</a>
         </div>
       </footer>
+
     </>
   );
 }
