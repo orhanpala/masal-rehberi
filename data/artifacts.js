@@ -167,7 +167,74 @@ Thus, the tale ends. May God protect everyone from the oppression of a stepmothe
     name_tr: "Alık ile Fatık",
     name_en: "Alik and Fatik",
     desc_tr: `Alık ile Fatık diye iki kardeş varmış. Bu iki kardeşin anneleri ölünce babaları başka bir kadın ile evlenir. Bu kadının da iki çocuğu olur. Üvey anne Alık ile Fatık ile az olan yiyeceklerini paylaşmak istemez. Çocuklarına pişirdikleri yemekleri veren üvey anne, Alık ile Fatık’a ise kül pişirip yedirir. Çocuklar üvey annelerinin zulmünden ahıra gidip gizlice ağlarlar. Bu durum her gün tekrarlanınca ahırdaki bir inek dile gelir: "Çocuklar, neden ağlıyorsunuz?" der. Çocuklar: "Biz açız, üvey annemiz bize yemek vermiyor. O yüzden ağlıyoruz." derler.\n\nİnek: "O zaman bundan sonra ben size yemek yedireceğim. Boynuzumun altında binbir çeşit yiyecek var. Her gün geldiğinizde boynuzumu gizlice kaldırın. Yemeklerinizi yedikten sonra tekrar boynuzumu yerine takın sessizce eve gidin." der. Alık ile Fatık gelip ineğin boynuzlarını kaldırınca çeşit çeşit yemekler ortaya çıkar. İkisi orada karınlarını bir güzel doyurur sonra da ineğin boynuzunu geri takarlar. Bu durum günlerce böyle devam eder. Alık ile Fatık her gün ineğin boynuzlarından çıkan sağlıklı yemekleri yedikleri için sağlıklı çocuklar olur, serpilip büyürler.\n\nÜvey anne bakar ki bu iki yetim günden güne güzelleşip, büyüyorlar. Kadın hasta numarası yaparak kocasından bu ineği kesmesini ister. İneğin kesileceğini öğrenen çocuklar ağlamaya başlayınca inek onlara kemiklerini saklayıp yalamalarını söyler. Böylece yine karınları doyar. Ancak üvey anne yine bir numara yapar ve bu kez çocukların kanının kendisine sürülmesi gerektiğini söyler. Bunu duyan kız kardeş Fatık, kardeşi Alık ile birlikte dağlara kaçar.\n\nKaçarken çok susayan Alık, ablasının uyarılarına rağmen bir çeşmeden su içer ve kuzuya dönüşür. Yollarına böyle devam ederlerken bir çeşme başında dinlenirler ve bir padişahın oğlu Fatık'ı görüp aşık olur. Fatık kardeşinin tekrar insan yapılması şartıyla evlenmeyi kabul eder. Padişahın oğlu kuzuyu suyu içtiği çeşmeye götürüp tekrar su içirir ve Alık eski haline döner. Sonunda Fatık ve şehzade kırk gün kırk gece düğünle evlenip mutlu olurlar.`,
-    desc_en: `There were once two siblings named Alık and Fatık. After their mother died, their father remarried, and this woman also had two children. The stepmother did not wish to share their limited food with Alık and Fatık. While she fed her own children proper meals, she cooked ashes and fed them to Alık and Fatık. Oppressed by their stepmother’s cruelty, the children would secretly go to the barn and cry. When this continued every day, a cow in the barn began to speak: "Children, why are you crying?" The children replied: "We are hungry; our stepmother does not give us food. That is why we are crying."\n\nThe cow said: "Then from now on, I will feed you. Beneath my horns there are countless kinds of food. Whenever you come, secretly lift my horn. After you have eaten, place it back and quietly return home." When Alık and Fatık lifted the cow’s horns, various kinds of food appeared. They ate until they were full and then replaced the horn. This continued for many days. As they ate the nourishing food from the cow’s horns, they grew strong and healthy.\n\nThe stepmother noticed that the two orphans were growing more beautiful and stronger each day. Pretending to be ill, she convinced her husband to slaughter the cow. The cow warned the children to hide its bones and lick them whenever they were hungry, which sustained them. But the wicked stepmother made another plan, claiming that only the children's blood could cure her. Overhearing this, Fatık took her brother Alık and fled into the mountains.\n\nWhile fleeing, Alık became terribly thirsty and, despite his sister's warnings, drank from an enchanted spring and turned into a lamb. They continued their journey and rested by a fountain, where a prince saw Fatık and fell in love with her. Fatık agreed to marry him only on the condition that her brother was restored to human form. The prince took the lamb back to the enchanted spring. Upon drinking the water again, Alık turned back into a human. Finally, Fatık and the prince married, celebrating with a wedding that lasted forty days and forty nights.`,
+    desc_en: `3. ALIK AND FATIK (VARIANT 1)
+EB: 168
+
+There were once two siblings named Alık and Fatık. After their mother died, their father remarried, and this woman also had two children. The stepmother did not wish to share their limited food with Alık and Fatık. While she fed her own children proper meals, she cooked ashes and fed them to Alık and Fatık. Oppressed by their stepmother’s cruelty, the children would secretly go to the barn and cry. When this continued every day, a cow in the barn began to speak:
+“Children, why are you crying?”
+
+The children replied:
+“We are hungry; our stepmother does not give us food. That is why we are crying.”
+
+The cow said:
+“Then from now on, I will feed you. Beneath my horns there are countless kinds of food. Whenever you come, secretly lift my horn. After you have eaten, place it back and quietly return home.”
+
+When Alık and Fatık lifted the cow’s horns, various kinds of food appeared. They ate until they were full and then replaced the horn. This continued for many days. As they ate the nourishing food from the cow’s horns, they grew strong and healthy. The stepmother noticed that the two orphans were growing more beautiful and stronger each day. She said:
+“I give my own children good food, yet I feed these two ashes. Still, they grow stronger and more beautiful, while my children grow weak.”
+
+The stepmother instructed her own children to follow them. One day, when Alık and Fatık went to the barn, their step-siblings followed them. Alık and Fatık said:
+“We are siblings; we will share a secret with you. When we lift this cow’s horns, delicious food appears. Let us eat together, but do not tell your mother.”
+
+After eating, they replaced the horns. That evening, the stepchildren told their mother everything. That night, the woman pretended to be ill. When her husband came home, he found her in bed.
+“What is wrong?” he asked.
+“I am very ill,” she said. “I had a dream: the cure for my illness is the meat of our white-foreheaded cow. If you slaughter it and feed me, I will recover.”
+
+The man agreed. When the children learned that the cow would be slaughtered, they went to the barn and cried again. The cow said:
+“Do not cry. When they slaughter me, they will throw away my bones. Watch where they throw them. If you lick my bones, they will become food for you.”
+
+After the father slaughtered the cow, he separated the meat and discarded the bones. Alık and Fatık retrieved the bones and hid them. Whenever they were hungry, they licked the bones and satisfied their hunger.
+
+After some time, the stepmother saw that the children were still strong. Realizing she could not defeat them, she devised another plan. Again, she pretended to be ill and told her husband to visit a shrine and seek a remedy. Early in the morning, she secretly went to the shrine ahead of him and hid behind a stone. When the man prayed and asked for a cure, the woman, hidden behind the stone, spoke:
+“The only cure is to slaughter Alık and Fatık and apply their blood to your wife.”
+
+Although the father hesitated, he believed the voice and returned home, saying:
+“The shrine has spoken; I must sacrifice Alık and Fatık.”
+The woman insisted:
+“If my cure is their blood, then you must do it.”
+
+Fatık overheard their conversation. Realizing they had to escape, she devised a plan without frightening her brother. She said:
+“Come, let us play a game. I will take your cap and run; you chase me.”
+
+She took Alık’s cap and ran around the house, then suddenly ran toward the mountains. Alık followed her, thinking it was a game. They ran far away, beyond seven mountains, until they were safe. Exhausted, they stopped. When Alık saw a spring, he wanted to drink water. Fatık warned him:
+“Do not drink from here; you will become a wolf.”
+
+They continued. At another spring, he wished to drink again. Fatık said:
+“If you drink from here, you will become a cow.”
+
+They moved on and reached yet another spring. Alık said:
+“Sister, I am very thirsty. May I drink?”
+Fatık replied:
+“You may, but you will become a lamb.”
+
+Alık drank the water and turned into a lamb. They continued together until they reached a village. At the entrance, they found a fountain and rested. The lamb fell asleep, and Fatık climbed a poplar tree nearby.
+
+One day, she saw a prince approaching the fountain on horseback. When the prince tried to water his horse, the horse refused to drink because Fatık’s reflection appeared in the water. The prince looked up and saw a girl as beautiful as the full moon. He asked her to come down, but she refused. He said:
+“I am the son of a sultan; if you come down, I will marry you.”
+Fatık replied:
+“I cannot leave this place.”
+
+She did not want to abandon her brother. The prince returned to his palace and ordered his men to cut down the tree. They worked all day and left the rest for the next day. During the night, the lamb licked the cut parts of the tree, restoring it. When the men saw this, they reported it to the prince.
+
+Realizing he could not obtain the girl this way, the prince sought the help of an old witch. The witch went to the fountain and pretended to struggle with her pot, calling out loudly for help. Seeing her, Fatık could not resist and came down to assist. The witch seized her and took her to the prince.
+
+The prince said:
+“I wish to marry you.”
+Fatık replied:
+“I will marry you on one condition: beneath the poplar tree lies a lamb—he is my brother. If you restore him to human form, I will marry you.”
+
+The prince asked how this could be done. Fatık explained that if the lamb drank from the spring where he had been transformed, he would become human again. The prince took the lamb to that spring. As soon as the lamb drank the water, he turned back into a human.
+
+The prince brought Alık back. Fatık saw her brother restored, and they embraced. Fatık then married the prince, and they celebrated with a wedding lasting forty days and forty nights, living happily thereafter.',
     audio_tr: "/audio/alik-fatik-tr.mp3",
     audio_en: "/audio/alik-fatik-en.mp3"
   },
@@ -178,7 +245,69 @@ Thus, the tale ends. May God protect everyone from the oppression of a stepmothe
     name_tr: "Dıngıl",
     name_en: "Dingil",
     desc_tr: `Bir varmış bir yokmuş, Dıngıl isminde uyanık bir çocuk varmış. Bu çocuk cin gibiymiş. Dıngıl annesi ile birlikte yaşıyormuş. Dıngıl ve annesinin yaşadığı köyden sekiz tane kız odun toplamaya çıkmışlar. Ormana giderken Dıngıl’ın evinin önünden geçmişler. Dıngıl’ın annesi de o an nohut haşlıyormuş. Dıngıl’ın annesi bu kızlara yoruldular diye her birine bir avuç nohut vermiş.\n\nKızlar nohut alıp yola çıkarken Dıngıl’da ısrar etmiş ve onlarla ormana gitmek istemiş. Dıngıl’ın annesi de biraz kafasını dinlemek için izin vermiş ve Dıngıl’ı kızlar ile ormana göndermiş. Bunlar ormana gidip odun toplarken Dıngıl uzanmış ve hiç odun toplamamış. Kızlar: "Dıngıl, madem odun toplamaya geldin, neden toplamıyorsun? Tembel tembel oturuyorsun." demişler. Dıngıl: "Bana ne? Ben odun toplamam, annem size nohut verdi. Siz bana da odun toplayacaksınız." demiş. Kızlarda ne yapsın Dıngıl’a da odun toplamışlar.\n\nGitmeye hazırlanırken herkes kendi yükünü sırtlamış ama Dıngıl yine bir şey almamış. "Benim annem size nohut verdi. Siz benim odunlarımı da taşıyacaksınız." demiş. Kızlar çaresiz yükü sırtlamış ama bu sefer de Dıngıl yürümeyip "Beni de sırtınıza alacaksınız" diyerek diretmiş. Bu oyalanmalar sırasında gece çökmüş ve ormanda yollarını kaybedip bir devin sarayına denk gelmişler.\n\nDev onları yeme planları yaparken Dıngıl kurnazlığıyla devi kandırmaya başlamış. Gece sürekli devden baklava, hindi ve en son da kalburla su istemiş. Dev kalburla su taşımaya çalışırken Dıngıl hazırladığı sopayla onu tuzağa düşürüp bir çuvalın içine sokmuş ve kurnazca devi alt etmiş. Sabah köyüne kahraman gibi dönen Dıngıl herkesin aklını başından almış.`,
-    desc_en: `Once upon a time, there lived a clever boy named Dingil. This child was extremely sharp and cunning. Dingil lived together with his mother. One day, eight girls from the village where Dingil and his mother lived set out to gather firewood. As they were passing in front of Dingil’s house on their way to the forest, his mother happened to be boiling chickpeas. Feeling that the girls might be tired, Dingil’s mother gave each of them a handful of chickpeas.\n\nAs the girls took the chickpeas and continued on their way, Dingil insisted on joining them and going to the forest. His mother, wanting a bit of peace and quiet, allowed him to go with the girls. When they reached the forest and began collecting firewood, Dingil lay down and did not gather any wood at all. The girls said: "Dingil, if you came to gather firewood, why are you not collecting any? You are just sitting there lazily." Dingil replied: "What is it to me? I will not gather wood. My mother gave you chickpeas; you will gather wood for me as well." The girls, having no other choice, gathered firewood for Dingil too.\n\nWhen it was time to leave, everyone loaded their own bundles onto their backs, but Dingil once again carried nothing. He said: "My mother gave you chickpeas. You will carry my wood as well." The girls did so, but then Dingil refused to walk, insisting they carry him on their backs too. Because of this delay, night fell, and they got lost in the dark forest, eventually stumbling upon an empty palace belonging to a giant.\n\nWhile the giant planned to eat them, Dingil used his wit to trick the giant. He kept the giant busy all night by demanding baklava, a turkey, and finally water carried in a sieve. While the giant foolishly tried to carry water in a sieve, Dingil tricked him into a sack and defeated him. Dingil led the girls safely back home and was hailed as the cleverest hero in the village.`,
+    desc_en: `28. DINGIL
+EB: 161
+
+Once upon a time, there lived a clever boy named Dingil. This child was extremely sharp and cunning. Dingil lived together with his mother. One day, eight girls from the village where Dingil and his mother lived set out to gather firewood. As they were passing in front of Dingil’s house on their way to the forest, his mother happened to be boiling chickpeas. Feeling that the girls might be tired, Dingil’s mother gave each of them a handful of chickpeas.
+
+As the girls took the chickpeas and continued on their way, Dingil insisted on joining them and going to the forest. His mother, wanting a bit of peace and quiet, allowed him to go with the girls. When they reached the forest and began collecting firewood, Dingil lay down and did not gather any wood at all. The girls said:
+“Dingil, if you came to gather firewood, why are you not collecting any? You are just sitting there lazily.”
+Dingil replied:
+“What is it to me? I will not gather wood. My mother gave you chickpeas; you will gather wood for me as well.”
+
+The girls, having no other choice, gathered firewood for Dingil too. When it was time to leave, everyone loaded their own bundles onto their backs, but Dingil once again carried nothing. The girls said:
+“Dingil, we gathered your wood; carry it now.”
+Dingil responded:
+“My mother gave you chickpeas. You will carry my wood as well.”
+
+With no alternative, the girls carried his wood too, but this time Dingil refused to move from his place. The girls said:
+“Dingil, we gathered your wood and are carrying it as well—why are you not walking?”
+Dingil replied:
+“My mother gave you chickpeas. You will carry me on your backs as well.”
+
+While the girls were dealing with Dingil, night fell, and the dense forest became pitch dark. In their fear, they set out to return home, carrying Dingil as well, but they lost their way in the darkness. As they wandered in fear, they noticed a light shining in the forest. Dingil said:
+“Let us go to that house with the light!”
+The girls replied:
+“Dingil, let us go home. Our parents will worry about us.”
+Dingil insisted:
+“In this darkness, wild animals might devour us. Let us go to that house and leave in the morning.”
+
+Having lost their way, the girls reluctantly agreed. They approached the light and discovered a palace, yet it appeared to be empty. As soon as they entered, the door shut behind them. In fact, this palace belonged to a giant. Pleased, the giant exclaimed:
+“Oh, my meal for eight days has arrived!”
+
+Dingil, however, was not afraid of the giant and said:
+“We have come to your house as guests. Provide us with food and beds.”
+
+The giant thought to himself:
+“This child is very cunning. It would be best to eat him first. As soon as they fall asleep, I will eat this mischievous one.”
+
+After they had eaten, the giant prepared beds for them, and they lay down to sleep. However, Dingil remained awake. The giant asked:
+“Dingil, why are you not sleeping?”
+Dingil replied:
+“Every night before sleeping, my mother used to make me baklava. I cannot sleep without eating it.”
+
+The giant prepared a tray of baklava and brought it. Dingil immediately put the baklava into his sack and placed it by his bedside. At midnight, the giant came to check whether they were asleep and saw that Dingil was still awake. Noticing the empty tray, the giant began to fear the boy. He asked:
+“Dingil, why are you still awake?”
+Dingil replied:
+“At this hour, my mother used to cook me a turkey. I cannot sleep without eating turkey.”
+
+The giant went and cooked a turkey and brought it. Dingil promptly placed the turkey into his sack as well. When the giant returned and saw that the pot was empty, he thought to himself:
+“I am a giant, yet even I could not eat so much baklava and turkey alone. Before this child eats me, I should eat him.”
+
+The giant said to Dingil:
+“You have eaten your meal; now go to sleep.”
+Dingil responded:
+“My stomach is full, but I am thirsty. Every night at this hour, my mother would bring me water in a sieve. Bring me water, and I will sleep.”
+
+The giant took the sieve and went to the fountain. Being foolish, he attempted to carry water in the sieve, but it kept leaking out. While he struggled with this, Dingil quickly went and cut a stick from a pomegranate tree and hid it in his bed. The giant spent the entire night trying to carry water but failed. In the morning, he returned grumbling:
+“Dingil, you told me to bring water in a sieve, but water does not stay in it. How did your mother bring you water in a sieve?”
+
+Dingil said:
+“Come, get into this sack, and I will teach you how water is carried in a sieve.”
+
+Exhausted from the night, the giant became curious and entered the sack. Dingil immediately tied it tightly and began beating it with the stick he had taken from the pomegranate tree. He beat the giant until he died, then hung the sack containing the giant from the ceiling. Afterwards, he woke the girls. The girls, thinking they would become the giant’s meal in the morning, were terrified. Dingil took them and they escaped from there.
+
+As they made their way home in the morning, they saw that the parents of the children had been searching frantically in the forest. Everyone ran to reunite with their parents. Dingil was accepted as the bravest and cleverest in the village. Everyone was happy, and thus the tale came to an end.`,
     audio_tr: "/audio/dingil-tr.mp3",
     audio_en: "/audio/dingil-en.mp3"
   },
@@ -189,7 +318,107 @@ Thus, the tale ends. May God protect everyone from the oppression of a stepmothe
     name_tr: "Hızır ve Üç Kardeş",
     name_en: "Khidr and the Three Brothers",
     desc_tr: `Bir varmış bir yokmuş. Fakir bir adam ve üç oğlu varmış. Bu adamın vakti dolunca Allah emanetini bundan almış, Adam hastalanıp ölmüş, üç oğlu ortada kalmış. Adam o kadar fakirdi ki öldüğünde çocuklarına bir tabak bile bırakamamış. Çocuklar açlıktan ortada kalmışlar ve diyar diyar gezip rızıklarını aramaya karar vermişler.\n\nYolda ak sakallı bir dedeyle karşılaşmışlar ve ona yoldaş olmuşlar. Bir ovadan geçerken büyük kardeş ah çekip oranın kendisine ait olmasını, konağı ve bağının olmasını dilemiş. Ak sakallı dede duasını kabul etmiş ve orayı ona vermiş. Biraz daha gidince ortanca kardeş sürülerce koyun ve bir konak istemiş, dede ona da istediklerini vermiş. En küçük kardeş ise sadece alın teriyle geçinebileceği ufak bir tarla ve helal süt emmiş bir eş dilemiş. Dede onun da bu mütevazı dileğini yerine getirmiş ve oradan ayrılmış. Meğer bu yaşlı adam Hızır’mış.\n\nYıllar sonra Hızır bu kardeşleri sınamak için hasta bir ihtiyar kılığında geri dönmüş. Büyük kardeşe gidip şifa için siyah üzüm istemiş. Büyük kardeş onu kovmuş ve tüm servetini kaybedip eski fakir haline dönmüş. Ortanca kardeşe gidip siyah koyun sütü istemiş, o da ihtiyar adamı kovalayıp malından mülkünden olmuş.\n\nSon olarak küçük kardeşin evine gitmiş. Küçük kardeşin eşi onu sevgiyle karşılamış, yaralarını sarmış ve misafir etmiş. Hızır şifasının altı aylık bir bebeğin kanı olduğunu söyleyince karı koca fedakarlık yaparak kendi altı aylık bebeklerini Hızır için feda etmeye razı olmuşlar. Sabah uyandıklarında çocuklarının beşikte sapasağlam oynadığını ve ihtiyarın kırmızı yeşil bir kuşa dönüştüğünü görmüşler. Hızır onlara bereket dileyip sır olmuş. Küçük kardeş ve ailesi ömür boyu mutlu bir hayat sürmüş.`,
-    desc_en: `Once upon a time, there lived a poor man with three sons. When his time came, God took his soul; the man fell ill and died, leaving his three sons behind. He was so poor that he could not leave even a single dish to his children. The children were left in destitution and hunger and decided to travel to distant lands to find work.\n\nOn their journey, they met a white-bearded old man and became his companions. Passing through a vast plain, the eldest brother sighed, wishing for a grand mansion, vineyards, and servants. The old man granted his wish, and everything appeared instantly. Further along, the middle brother wished for a mansion and flocks of sheep, which the old man also granted. The youngest brother, however, simply wished for a modest life: a small house, a pair of oxen, and a virtuous wife. The old man miraculously arranged this modest wish as well and then departed. In truth, this old man was Khidr.\n\nYears later, Khidr returned disguised as a frail, sick old man to test them. He went to the eldest brother and asked for black grapes for his cure. The eldest brother harshly drove him away, instantly losing all his wealth and returning to poverty. Khidr then visited the middle brother, asking for black sheep's milk, but was also insulted and turned away, leading the middle brother to lose everything too.\n\nFinally, Khidr arrived at the youngest brother's home. The youngest brother's wife welcomed him with compassion, cleaned his wounds, and hosted him warmly. When Khidr claimed that his only cure was the blood of a six-month-old child, the couple made a profound sacrifice, offering their own infant for their guest's healing. In the morning, they found their child perfectly healthy, playing in his cradle, while the old man had transformed into a green and red bird. Khidr blessed them and disappeared. The youngest brother and his family lived a prosperous and happy life forever.`,
+    desc_en: `44. KHIDR AND THE THREE BROTHERS
+EB: 110
+
+Once upon a time, there lived a poor man with three sons. When his time came, God took his soul; the man fell ill and died, leaving his three sons behind. He was so poor that he could not leave even a single dish to his children. The children were left in destitution and hunger. They stayed at home for one day, then two, then three. Finally, the eldest brother said:
+“My brothers, our old father has passed away. We have been left here with nothing. Let us gather our belongings, go to distant lands, find work, and earn our living.”
+The middle and the youngest brothers replied:
+“Yes, brother, we agree with you.”
+
+They rose, packed their belongings into bundles, and set out on their journey. After traveling for some time—only God knows how long—they encountered an old man with a white beard. He asked:
+“Where are you coming from, and where are you going?”
+The three brothers replied:
+“Our situation is as follows, grandfather: our elderly father died. He was very poor and left us nothing. We have left home in the hope of finding work somewhere and sustaining ourselves.”
+The old man said:
+“May I accompany you on your journey?”
+The brothers answered:
+“What kind of question is that, grandfather? Of course, you are welcome to join us.”
+
+Thus, the white-bearded old man and the three brothers became companions and continued on their way. After traveling for some time, they arrived at a vast plain. The eldest brother looked around and sighed deeply. The old man asked:
+“Why did you sigh?”
+The eldest brother replied:
+“Grandfather, I wish this plain were mine. I wish it had vineyards and gardens, and a house in the middle. I wish I had a wife, and together with her and our servants, we lived here. I wish all this land belonged to me.”
+The old man said:
+“Very well, let everything be as you have said.”
+
+At once, the land transformed into vineyards and gardens, and a mansion appeared in the middle. The old man said:
+“All that you see now belongs to you. Live as you desire.”
+
+The eldest brother remained there, while the other two brothers and the old man continued their journey. After traveling further, they arrived at the foot of a mountain where everything was filled with roses and greenery. The middle brother sighed. The old man asked:
+“Why did you sigh?”
+The middle brother replied:
+“Grandfather, I wish this place were mine. I wish I had flocks of sheep, a mansion here, and a wife. With a few shepherds, we would live here peacefully.”
+The old man said:
+“Let it be as you wish.”
+
+At once, a mansion appeared, flocks of sheep multiplied, and shepherds began tending them. The old man said:
+“Go, this place is now yours. Live as you desire.”
+
+The middle brother remained there, and the youngest brother continued with the old man. After traveling for some time, the youngest brother neither sighed nor asked for anything. The old man said:
+“My son, do you not have any wish you would like to ask of me? I fulfilled your brothers’ wishes; tell me yours as well.”
+The youngest brother replied:
+“Grandfather, my wish is that a virtuous girl comes before me and that we marry. I wish to have a pair of oxen, nine or ten dönüms of land, and a modest house with two or three rooms. My wife and I would farm and live without depending on anyone. I desire nothing more.”
+
+The old man said:
+“Alas, my son, you have asked something very difficult. There is only one such virtuous girl in the world, and she is getting married today. We must go quickly and take her before the wedding is completed.”
+The youngest brother replied:
+“Grandfather, do as you see fit.”
+
+The old man said:
+“Close your eyes.”
+
+The boy closed his eyes, and when he opened them, they had arrived in a village. The villagers were celebrating and dancing. The old man said:
+“The virtuous girl is the bride you see there. We will take her without being seen.”
+
+They seized the bride unseen and departed. At the very moment of the youngest brother’s wish, everything appeared as he had desired: a small house, a pair of oxen, and a life as he had imagined. The old man married them and said:
+“My son, I have fulfilled the wishes of all three of you. Always remain on the path of God and be righteous. Farewell.”
+
+Then he departed. In truth, this old man was Khidr, though the brothers did not realize it. In time, they forgot him.
+
+Years passed. One day, Khidr remembered the three brothers and thought:
+“I once encountered three brothers who were very poor, and I fulfilled their wishes. Let me go and see whether they deserved these blessings.”
+
+He went first to the eldest brother’s land, disguising himself as a sick and aged man. He knocked on the door of the mansion. The servants opened the door and saw a frail, wounded old man. They asked:
+“Grandfather, what do you want?”
+The old man replied:
+“My children, do not ask. I have fallen ill, and no doctor could cure me. Finally, a wise physician told me that the remedy for my illness is black grapes. If I eat black grapes, I will recover. Could you give me a bunch?”
+
+The servants said:
+“We are only servants. Let us inform our master.”
+
+They informed the eldest brother, who came to the door and asked:
+“What do you want from me?”
+The old man repeated his request and added:
+“Let it be a charity in Khidr’s name, so that I may find healing.”
+
+The eldest brother drove him away harshly:
+“Go away! You could not find white grapes, and now you ask for black grapes? I have nothing for you. Leave at once!”
+
+Khidr said:
+“So be it. Since you have spoken thus, return to your former state.”
+
+At once, everything vanished, and the eldest brother found himself back where he had first sighed. He regretted his actions, but it was too late.
+
+Khidr then went to the middle brother, again in disguise, and asked for milk from a black sheep. The middle brother also refused and insulted him. Khidr said:
+“Since you have spoken thus, return to your former state.”
+
+The middle brother likewise lost everything and rejoined his elder brother in regret.
+
+Finally, Khidr went to the youngest brother, again disguised as a frail old man. The younger brother’s wife saw him struggling and said:
+“Grandfather, what has happened to you? Climb onto my back, and I will take you home.”
+
+Despite his hesitation, she carried him home, prepared a bed, cleaned his wounds, and cared for him. When the youngest brother returned, he approved of her kindness. They treated the old man with respect and hospitality.
+
+During their conversation, Khidr said that his illness could only be cured by the blood of a six-month-old child. The couple, who had such a child, discussed the matter and, believing in sacrifice and faith, decided to offer their child for the sake of healing their guest. They carried out the act and applied the blood to the old man’s wounds, then placed the child in the cradle and went to sleep.
+
+In the morning, when they went to bury the child, they found him alive and healthy, playing in his cradle. Astonished, they went to the old man’s room and saw instead a green and red bird perched by the window. Realizing the truth, they said:
+“Now we understand—you are Khidr. You are always welcome among us.”
+
+Khidr responded:
+“My son, I have seen that my efforts were not in vain. May God grant you even more.”
+
+Then he disappeared. The youngest brother lived a prosperous and happy life with his family. May Khidr always be present among people.`,
     audio_tr: "/audio/hizir-tr.mp3",
     audio_en: "/audio/hizir-en.mp3"
   }
