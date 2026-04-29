@@ -64,7 +64,7 @@ export default function MasalRehberi() {
           
           <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', width: '100%', maxWidth: '300px' }}>
             <button onClick={() => handleSetLang('tr')} style={{ padding: '18px', border: '1px solid #c8aa64', color: '#c8aa64', background: 'transparent', letterSpacing: '0.3em', textTransform: 'uppercase', cursor: 'pointer', fontSize: '14px' }}>Türkçe</button>
-            <button onClick={() => handleSetLang('en')} style={{ padding: '18px', border: '1px solid #c8aa64', color: '#c8aa64', background: 'transparent', letterSpacing: '0.3em', textTransform: 'uppercase', cursor: 'pointer', fontSize: '14px' }}>English</button>
+            <button onClick={() => handleSetLang('en')} style={{ padding: '18px', border: '1px solid #c8aa64', color: '#c8aa64', background: 'transparent', letterSpacing: '0.3em', textTransform: 'uppercase', cursor: 'pointer', fontSize: '14px' }}>Englısh</button>
           </div>
         </div>
       )}
