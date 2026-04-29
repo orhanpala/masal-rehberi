@@ -234,7 +234,7 @@ Fatık replied:
 
 The prince asked how this could be done. Fatık explained that if the lamb drank from the spring where he had been transformed, he would become human again. The prince took the lamb to that spring. As soon as the lamb drank the water, he turned back into a human.
 
-The prince brought Alık back. Fatık saw her brother restored, and they embraced. Fatık then married the prince, and they celebrated with a wedding lasting forty days and forty nights, living happily thereafter.',
+The prince brought Alık back. Fatık saw her brother restored, and they embraced. Fatık then married the prince, and they celebrated with a wedding lasting forty days and forty nights, living happily thereafter.`,
     audio_tr: "/audio/alik-fatik-tr.mp3",
     audio_en: "/audio/alik-fatik-en.mp3"
   },
