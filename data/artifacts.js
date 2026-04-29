@@ -58,7 +58,69 @@ Having said this, the nightingale flies away. The sultan reflects upon these wor
     name_tr: "Şahmeran",
     name_en: "Shahmeran",
     desc_tr: `Bir varmış bir yokmuş bir adam karısı ve bir oğlu ile yaşarmış. Bu adam odunculuk yaparak geçimini sağlarmış. Bir gün bu adam hastalanır. Oğlu o dönem on dört on beş yaşlarındaymış. Oğlan babasına: "Baba sen hastasın, senin yerine ben gideyim bu sefer" der.\n\nOğlan, köydeki diğer oduncular ile dağa odun toplamaya gider. Dağda odun toplarken çocuk bir ağaç dalını kaldırınca bir kuyu ortaya çıkar. Oduncular toplanıp kuyuda ne olduğunu öğrenmeye çalışırlar. Oduncular çocuğa: "Biz seni ip ile kuyuya indirelim, orada ne varsa sen ipe bağla biz çekelim, sonra seni de çıkaralım" derler. Çocuğu kuyuya indirdikleri vakit çocuk bakıyor ki her taraf altın dolu. Çocuk oradaki bütün altınları torbalara doldurur, kuyunun başındakilerde torbaları yukarı çıkarır. En sonunda bütün altınları çıkarınca kuyunun başındakiler ipi kuyuya atarlar. "Biz seni şimdi çıkarırsak bir payda sana vereceğiz. Sen orada kal." deyip çekip giderler.\n\nÇocuk bir süre orada aç susuz kalır. Eline küçük bir sopa ile kuyunun bir tarafını kazar. Bir ara küçük bir ışık görür. Çocuk bunun üzerine ışığın geldiği tarafı kazmaya başlar. Orayı tam kazınca önüne güllük gülistanlık bir bahçe, içinde her çeşit ağaç, bahçenin ortasında bir etrafı güllerle çevrili bir havuz görür. Çocuk açlıktan, yorgunluktan bitkin düştüğü için havuzun başına gidip elini yüzünü yıkar. Sonra da bahçedeki bir söğüt ağacının gölgesine gidip uyur. Bir ara uyandığında bakar ki karşısında belden yukarısı kadın, belden aşağısı yılan biri duruyor.\n\nBu kadın çocuğa: "Sen buraya nasıl geldin?" diye sorar. Çocukta ona hikayesini anlatır. Kadın: "Madem sen buraya geldin, sen bir daha yeryüzüne çıkmazsın. Burada ömür boyunca bizim misafirimiz olarak kalacaksın. Her taraf yılanlar ile dolu ama hiçbir yılan benden emir almadan sana dokunmaz. Ben Şahmeran’ım, yılanların padişahıyım. Benden izinsiz burada hiçbir şey olmaz. Burada istediğin her şeyi yapabilirsin." der.\n\nÇocuk orada yaşamaya başlar. Bir yıl, iki yıl, üç yıl derken Şahmeran bu çocuğa âşık olur. Bunlar burada kalsın, çocuğun yaşadığı ülkenin padişahı amansız bir hastalığa yakalanır. Dünyanın bütün doktorlarını çağırırlar fakat hiçbiri çare bulamaz. En sonunda bir lokman hekim derki: "Padişahım, senin bu derdinin tek bir çaresi var. Eğer Şahmeran’ı bulursan onun etini kaynatıp üstüne çıkan köpüğü vücuduna sürersen iyileşirsin. Başka da bu hastalığın çaresi yok" der. Padişah: "Ben Şahmeran’ı nasıl bulayım, nerede yaşar" diye sorar. Lokman hekim: "Sen onu bulamazsın ancak onunla yaşayan bir kişi seni ona götürebilir. Bütün ülkeni araştır eğer onu gören biri varsa o kişinin vücudu pullu, yılan derisi gibi benekli olur." der.\n\nBurada olaylar böyle olurken aşağıda Şahmeran’ın ülkesinde çocuk yedi yıl kalır. Her gün biraz daha mutsuz olur. Şahmeran bir gün: "Ne istiyorsun benden iste bütün dileklerini yerine getireyim" der. Çocuk: "Tek isteğim aydınlık dünyaya çıkmak" der. Şahmeran: "Bu olmaz, sen benden olmayacak bir şey istiyorsun" der. Çocuk: "Benim başka isteğim yok" der. Şahmeran: "Tamam, ben seni yeryüzüne çıkaracağım ama ben sana söyleyeyim sen benim ölümümün sebebi olacaksın, bunu unutma!" der.\n\nŞahmeran çocuğu yeryüzüne çıkarır. Yeryüzünde bu çocuk padişahın işlerinde çalışmaya başlar. İşçi ekipleri ile çalışıp akşam eve gelir. Bu çocuk yaz, kış uzun kol elbiseler giyer. El bileklerine kadar vücudumu hiç açmaz. Bir süre böyle yaşarken padişah ferman çıkarır. "Bütün ülkenin bütün insanlarını toplayın tek tek vücutlarına bakın" der. Bu çocuk kendini kurtaramaz, o da bunların içinde gider. Herkese tek tek bakarlar. Sıra bu çocuğa gelince üstünü çıkardıkları vakit vücudu pullu, benekli olduğu ortaya çıkar. Çocuğu alıp padişaha götürürler. Padişah: "Şahmeran’ın yerini söyle, yoksa seni darağacına götürürüz" der. Çocuk mecbur kalıp yerini gösterir.\n\nYolda Şahmeran çocuğa: "Sen benim ölümüme neden oldun. Madem sen bana bunu yaptın beni sen keseceksin, etimi sen pişireceksin. Etim kaynarken önce beyaz köpük çıkacak o padişahın hastalığına dermandır. İkinci köpük gelecek onu içen dünyadaki bütün bilimlerini öğrenir, onu sen iç. Üçüncü köpük sırf zehirdir onu içen ölür, onu vezire ver o içsin." der. Çocuk Şahmeran’ın dediği gibi yapar, padişah iyileşir, kötü vezir ölür, çocuk ise dünyadaki tüm ilimlere sahip olur. İşte Lokman Hekim'in o çocuk olduğu rivayet edilir.`,
-    desc_en: `Once upon a time, there lived a man with his wife and son. The man earned his living by working as a woodcutter. One day, he fell ill. His son, who was about fourteen or fifteen years old at the time, said: "Father, you are ill; let me go in your place this time."\n\nThe boy went to the mountains with the other woodcutters of the village to gather firewood. While collecting wood, he lifted a tree branch and discovered a well. The woodcutters gathered around and said to the boy: "We will lower you into the well with a rope. Whatever you find there, tie it to the rope, and we will pull it up. Then we will pull you out as well." When they lowered the boy into the well, he saw that it was filled with gold. He placed all the gold into sacks, and those above pulled them up. After all the gold had been extracted, they threw the rope back down and said: "If we pull you up, we will have to give you a share. You stay there." Then they left him behind.\n\nThe boy remained there for a while, hungry and thirsty. Using a small stick, he began digging one side of the well. After some time, he noticed a faint light. He continued digging toward it, and when he finally broke through, he saw before him a lush garden filled with all kinds of trees, and in the middle, a pool surrounded by roses. Exhausted, he washed his face and hands, and then lay down to sleep under a willow tree. When he awoke, he saw before him a being whose upper body was that of a woman and whose lower body was that of a serpent.\n\nShe asked: "How did you come here?" The boy told his story. She said: "Now that you have come here, you will never return to the surface. You will remain here as our guest for the rest of your life. I am Shahmeran, the sovereign of serpents. Nothing happens here without my permission. You may do whatever you wish here." The boy began to live there. One year passed, then two, then three, and over time Shahmeran fell in love with him.\n\nMeanwhile, in the boy’s homeland, the ruler fell gravely ill. All the physicians in the world were summoned, but none could find a cure. Finally, a wise physician said: "My sovereign, there is only one cure for your illness. If Shahmeran is found, her flesh must be boiled, and the foam that rises to the surface must be applied to your body." The physician added: "You cannot find her yourself. Search the entire land. Whoever has seen her will have a body marked like scales, resembling the skin of a serpent."\n\nWhile these events unfolded, the boy remained in Shahmeran’s realm for seven years. Over time, he grew increasingly unhappy and asked to return to the world of light. Shahmeran answered: "Very well, I will return you to the surface, but remember this: you will be the cause of my death."\n\nShe returned him to the surface. The boy began working in the service of the ruler, always wearing long-sleeved garments. After some time, the ruler issued a decree to examine the bodies of all people. The boy could not escape, and his scales were discovered. Forced to lead them to Shahmeran, they captured her.\n\nShahmeran said to the boy: "You have become the cause of my death. Since you have done this, you must be the one to kill me and cook my flesh. As it boils, three foams will appear: the first white foam will cure the ruler; the second foam grants all the knowledge of the world—drink that yourself; the third is pure poison—give it to the vizier." The boy did as instructed. The ruler recovered, the vizier died, and the boy gained all the knowledge of the world, later becoming known as Lokman Hekim.`,
+    desc_en: `SHAHMERAN (VARIANT 1)
+EB: 57
+
+Once upon a time, there lived a man with his wife and son. The man earned his living by working as a woodcutter. One day, he fell ill. His son, who was about fourteen or fifteen years old at the time, said:
+“Father, you are ill; let me go in your place this time.”
+
+The boy went to the mountains with the other woodcutters of the village to gather firewood. While collecting wood, he lifted a tree branch and discovered a well. The woodcutters gathered around and tried to determine what was inside. They said to the boy:
+“We will lower you into the well with a rope. Whatever you find there, tie it to the rope, and we will pull it up. Then we will pull you out as well.”
+
+When they lowered the boy into the well, he saw that it was filled with gold. He placed all the gold into sacks, and those above pulled them up. After all the gold had been extracted, they threw the rope back down and said:
+“If we pull you up, we will have to give you a share. You stay there.”
+Then they left him behind.
+
+The boy remained there for a while, hungry and thirsty. Using a small stick, he began digging one side of the well. After some time, he noticed a faint light. He continued digging toward it, and when he finally broke through, he saw before him a lush garden filled with all kinds of trees, and in the middle, a pool surrounded by roses. Exhausted from hunger and fatigue, he went to the pool, washed his face and hands, and then lay down to sleep under a willow tree.
+
+When he awoke, he saw before him a being whose upper body was that of a woman and whose lower body was that of a serpent. She asked:
+“How did you come here?”
+
+The boy told his story. She said:
+“Now that you have come here, you will never return to the surface. You will remain here as our guest for the rest of your life. The place is filled with serpents, but none will harm you without my command. I am Shahmeran, the sovereign of serpents. Nothing happens here without my permission. You may do whatever you wish here.”
+
+The boy began to live there. One year passed, then two, then three, and over time Shahmeran fell in love with him.
+
+Meanwhile, in the boy’s homeland, the ruler fell gravely ill. All the physicians in the world were summoned, but none could find a cure. Finally, a wise physician said:
+“My sovereign, there is only one cure for your illness. If Shahmeran is found, her flesh must be boiled, and the foam that rises to the surface must be applied to your body. There is no other remedy.”
+
+The ruler asked:
+“How can I find Shahmeran?”
+The physician replied:
+“You cannot find her yourself. Only someone who has lived with her can lead you to her. Search the entire land. Whoever has seen her will have a body marked like scales, resembling the skin of a serpent.”
+
+While these events unfolded, the boy remained in Shahmeran’s realm for seven years. Over time, he grew increasingly unhappy. One day, Shahmeran said:
+“Ask of me whatever you desire, and I will fulfill it.”
+The boy replied:
+“My only wish is to return to the world of light.”
+
+Shahmeran answered:
+“That cannot be. You ask for something impossible.”
+The boy insisted:
+“I have no other wish.”
+
+Shahmeran then said:
+“Very well, I will return you to the surface, but remember this: you will be the cause of my death.”
+The boy replied:
+“I love you; how could I do such a thing?”
+Shahmeran said:
+“You will see in time.”
+
+She returned him to the surface. The boy began working in the service of the ruler, laboring during the day and returning home in the evenings. He always wore long-sleeved garments and never revealed his body.
+
+After some time, the ruler issued a decree:
+“Gather all the people of the land and examine their bodies one by one.”
+
+The boy could not escape and was brought among them. When his clothes were removed, it became evident that his body bore scales. He was taken before the ruler. The ruler said:
+“Tell me where Shahmeran is, or you will be executed.”
+The boy denied knowing, but the officials insisted that the marks on his body proved otherwise.
+
+They forced him to lead them to Shahmeran. When they captured her, she said to the boy:
+“You have become the cause of my death. My ancestors warned me not to trust humankind, yet I did not believe them. Since you have done this, you must be the one to kill me and cook my flesh. As it boils, three foams will appear: the first white foam will cure the ruler; the second foam grants all the knowledge of the world—drink that yourself; the third is pure poison—give it to the vizier.”
+
+The boy did as instructed. However, the vizier, aware of the matter, took the foams. At the last moment, the boy exchanged them. When the white foam was applied to the ruler, he recovered. The vizier drank the poisoned foam and died. The boy drank the second foam and gained all the knowledge of the world.
+
+According to one tradition, the figure known as Lokman Hekim is in fact this very boy who encountered Shahmeran. It is said that when he walked among plants, they would speak to him and reveal the cures they contained.`,
     audio_tr: "/audio/sahmeran-tr.mp3",
     audio_en: "/audio/sahmeran-en.mp3"
   },
