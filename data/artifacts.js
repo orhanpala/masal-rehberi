@@ -6,7 +6,48 @@ export const artifacts = [
     name_tr: "Altın Kafesteki Bülbül",
     name_en: "The Nightingale in the Golden Cage",
     desc_tr: `Bir padişah hizmetkarını yanına çağırır. Padişah hizmetkarına: "Bu kafesi al, git bülbülü yakala ve içine koyup getir." der. Padişahın hizmetkarı gidip bülbülü yakalar ve kafese koyup padişaha getirir. Padişah bülbülü yanına bırakır ve her gün onu dinler. Bülbül her gün padişahın yanında şöyle seslenir: "Ah vatan, vah vatan!"\n\nBülbül her gün böyle seslenince padişah merak eder ve bir gün bülbüle sorar: "Bülbül sen neden her gün böyle sesleniyorsun?" der. Bülbül: "Ben özgürlük istiyorum." der. Padişah: "Bak altın kafestesin, yemini veriyorum. Sen dışarda ne yiyeceksin, acından öleceksin." der. Padişah bülbüle bunları söyler ama bülbül yine her gün "ah vatan, vah vatan!" der.\n\nPadişah bakar bülbül her gün böyle sesleniyor onu bırakmaya karar verir. Padişah: "Ben bunu bırakacağım ama ikinci gün geri gelir." der. Padişah bülbülü kafesinden çıkarıp özgür bırakır. Bülbül gidip birkaç gün geri gelmez. Bir gün bülbül gelip padişahın camına konar. Padişah: "Sen neden gelmedin, bak kafesin hala açıktır ama senin mutlaka geri geleceğini biliyordum" der.\n\nBülbül: "Ben geri gelmedim, ben seninle konuşmaya geldim." der. Padişah: "Benimle ne konuşacaksın?" der. Bülbül: "Bu odandan bir kere çık, halkın içine git. Hep burada oturarak padişahlık olmaz. İnsanların yarısı aç yarısı ise senin sayende ekmek ile oynuyor. Vatanını seveceksin yaşadığın topraktaki insanları seveceksin ama sen sadece kendini seviyorsun" der.\n\nPadişah bülbüle: "Sen gidip bir dikene konuyorsun sen yaşadığın yeri seviyor musun?" der. Bülbül: "Benim konduğum diken altın kafesten daha değerlidir. Ben diken üzerinde özgürüm ama altın kafesinde tutsaktım" der ve uçar gider. Padişah kendi kendine düşünür ve bülbüle hak verir. Sarayından çıkıp halkın arasına karışır ve iyi bir padişah olup halkını yönetir.`,
-    desc_en: `A sultan summons his servant and says: "Take this cage, go, capture the nightingale, and bring it back inside." The servant of the sultan goes, captures the nightingale, places it in the cage, and brings it to the sultan. The sultan keeps the nightingale beside him and listens to it every day. Each day, the nightingale calls out as follows: "Ah, my homeland; alas, my homeland!"\n\nAs the nightingale repeats this every day, the sultan becomes curious and one day asks: "Nightingale, why do you call out like this every day?" The nightingale replies: "I desire freedom." The sultan responds: "Look, you are in a golden cage, and I provide your food. What would you eat outside? You would die of hunger." Although the sultan says this, the nightingale continues to cry out every day: "Ah, my homeland; alas, my homeland!"\n\nSeeing that the nightingale persists in this lament, the sultan decides to release it. He says: "I will set it free, but it will return the next day." The sultan opens the cage and releases the nightingale. The nightingale does not return for several days. One day, it comes back and perches on the window of the sultan. The sultan says: "Why did you not return? Look, your cage is still open, but I knew you would surely come back."\n\nThe nightingale replies: "I have not come back; I have come to speak with you." The sultan asks: "What will you speak to me about?" The nightingale says: "Leave this chamber once and go among your people. Ruling cannot be done by sitting here constantly. Half of your people are hungry, while the other half, because of you, plays with bread. You must love your homeland and the people who live on your land, but you love only yourself."\n\nThe sultan responds: "You perch upon a thorn—do you love where you live?" The nightingale answers: "The thorn upon which I perch is more valuable than a golden cage. I am free upon the thorn, but in the golden cage, I was captive." Having said this, the nightingale flies away. The sultan reflects upon these words and acknowledges the truth in them. He leaves his palace, mingles among his people, and becomes a just and good ruler, governing his people well.`,
+    desc_en: `THE NIGHTINGALE IN THE GOLDEN CAGE
+EB: —
+
+A sultan summons his servant and says:
+“Take this cage, go, capture the nightingale, and bring it back inside.”
+
+The servant of the sultan goes, captures the nightingale, places it in the cage, and brings it to the sultan. The sultan keeps the nightingale beside him and listens to it every day. Each day, the nightingale calls out as follows:
+“Ah, my homeland; alas, my homeland!”
+
+As the nightingale repeats this every day, the sultan becomes curious and one day asks:
+“Nightingale, why do you call out like this every day?”
+The nightingale replies:
+“I desire freedom.”
+
+The sultan responds:
+“Look, you are in a golden cage, and I provide your food. What would you eat outside? You would die of hunger.”
+
+Although the sultan says this, the nightingale continues to cry out every day:
+“Ah, my homeland; alas, my homeland!”
+
+Seeing that the nightingale persists in this lament, the sultan decides to release it. He says:
+“I will set it free, but it will return the next day.”
+
+The sultan opens the cage and releases the nightingale. The nightingale does not return for several days. One day, it comes back and perches on the window of the sultan. The sultan says:
+“Why did you not return? Look, your cage is still open, but I knew you would surely come back.”
+
+The nightingale replies:
+“I have not come back; I have come to speak with you.”
+
+The sultan asks:
+“What will you speak to me about?”
+
+The nightingale says:
+“Leave this chamber once and go among your people. Ruling cannot be done by sitting here constantly. Half of your people are hungry, while the other half, because of you, plays with bread. You must love your homeland and the people who live on your land, but you love only yourself.”
+
+The sultan responds:
+“You perch upon a thorn—do you love where you live?”
+
+The nightingale answers:
+“The thorn upon which I perch is more valuable than a golden cage. I am free upon the thorn, but in the golden cage, I was captive.”
+
+Having said this, the nightingale flies away. The sultan reflects upon these words and acknowledges the truth in them. He leaves his palace, mingles among his people, and becomes a just and good ruler, governing his people well.`,
     audio_tr: "/audio/bulbul-tr.mp3",
     audio_en: "/audio/bulbul-en.mp3"
   },
