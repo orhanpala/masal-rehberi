@@ -101,13 +101,39 @@ export default function MasalRehberi() {
                   {lang === 'tr' ? activeArtifact.desc_tr : activeArtifact.desc_en}
                 </p>
 
-                {/* 3. KAYNAKÇA / ALINTI METNİ */}
+            {/* 3. KAYNAKÇA / ALINTI METNİ */}
                 <div style={{ marginTop: '2.5rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(200, 170, 100, 0.3)' }}>
                   <p style={{ fontSize: '0.8rem', color: 'rgba(240, 232, 216, 0.6)', fontStyle: 'italic', lineHeight: '1.6', margin: 0 }}>
                     {lang === 'tr' 
                       ? "Bu çalışmada hazırladığımız sesli masal projesinde, Tunceli’den Derlenen Masallar (Metin-İnceleme) adlı doktora tezinden yararlanılmıştır. Yılmaz Kaval tarafından hazırlanan bu tez, masalların içerik ve yapı açısından anlaşılmasına katkı sağlamış ve çalışmamıza kaynaklık etmiştir. Eser, Uşak Üniversitesi Sosyal Bilimler Enstitüsü bünyesinde, danışman Derya Özcan eşliğinde hazırlanmıştır (2019)."
                       : "In this audio tale project, the doctoral thesis titled 'Tales Compiled from Tunceli (Text-Analysis)' was utilized. This thesis, prepared by Yılmaz Kaval, contributed to the understanding of the tales in terms of content and structure and served as a source for our work. The work was prepared at Uşak University Institute of Social Sciences under the supervision of Derya Özcan (2019)."}
                   </p>
+                </div>
+
+                {/* 4. PROJE EKİBİ (MODAL İÇİ) */}
+                <div style={{ marginTop: '1.5rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(200, 170, 100, 0.1)', textAlign: 'center' }}>
+                  <p style={{ fontSize: '0.8rem', color: 'rgba(240, 232, 216, 0.8)', marginBottom: '1rem', fontStyle: 'italic' }}>
+                    {lang === 'tr' 
+                      ? "Bu proje, Gönüllülük Çalışmaları dersi kapsamında hazırlanmıştır." 
+                      : "This project was prepared within the scope of the Volunteer Studies course."}
+                  </p>
+                  
+                  <div style={{ fontSize: '0.8rem', color: 'rgba(240, 232, 216, 0.6)', lineHeight: '1.6' }}>
+                    <div style={{ marginBottom: '0.8rem' }}>
+                      <span style={{ color: '#c8aa64', display: 'block', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{lang === 'tr' ? 'Danışman' : 'Advisor'}</span>
+                      Ayşegül Demir
+                    </div>
+                    
+                    <div style={{ marginBottom: '0.8rem' }}>
+                      <span style={{ color: '#c8aa64', display: 'block', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{lang === 'tr' ? 'Proje Ekibi' : 'Project Team'}</span>
+                      Edip Züberi &nbsp;·&nbsp; Nergiz Bulut &nbsp;·&nbsp; Fatma Takdemir &nbsp;·&nbsp; Münevver Ersöz
+                    </div>
+
+                    <div>
+                      <span style={{ color: '#c8aa64', display: 'block', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{lang === 'tr' ? 'Seslendirme' : 'Voiceover'}</span>
+                      Jale Erdem
+                    </div>
+                  </div>
                 </div>
               </div>
 
