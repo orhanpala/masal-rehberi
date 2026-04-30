@@ -184,6 +184,34 @@ export default function MasalRehberi() {
         </p>
       </section>
 
+      {/* ── PROJE EKİBİ KÜNYESİ ── */}
+      <section style={{ padding: '0 2rem 4rem 2rem', maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
+        <div style={{ borderTop: '1px solid rgba(200, 170, 100, 0.1)', paddingTop: '2.5rem', maxWidth: '600px', margin: '0 auto' }}>
+          <p style={{ fontSize: '0.85rem', color: 'rgba(240, 232, 216, 0.8)', marginBottom: '1.5rem', fontStyle: 'italic' }}>
+            {lang === 'tr' 
+              ? "Bu proje, Gönüllülük Çalışmaları dersi kapsamında hazırlanmıştır." 
+              : "This project was prepared within the scope of the Volunteer Studies course."}
+          </p>
+          
+          <div style={{ fontSize: '0.85rem', color: 'rgba(240, 232, 216, 0.6)', lineHeight: '1.8' }}>
+            <div style={{ marginBottom: '1.2rem' }}>
+              <span style={{ color: '#c8aa64', display: 'block', letterSpacing: '1px', fontSize: '0.75rem', textTransform: 'uppercase' }}>{lang === 'tr' ? 'Danışman' : 'Advisor'}</span>
+              Ayşegül Demir
+            </div>
+            
+            <div style={{ marginBottom: '1.2rem' }}>
+              <span style={{ color: '#c8aa64', display: 'block', letterSpacing: '1px', fontSize: '0.75rem', textTransform: 'uppercase' }}>{lang === 'tr' ? 'Proje Ekibi' : 'Project Team'}</span>
+              Edip Züberi &nbsp;·&nbsp; Nergiz Bulut &nbsp;·&nbsp; Fatma Takdemir &nbsp;·&nbsp; Münevver Ersöz
+            </div>
+
+            <div>
+              <span style={{ color: '#c8aa64', display: 'block', letterSpacing: '1px', fontSize: '0.75rem', textTransform: 'uppercase' }}>{lang === 'tr' ? 'Seslendirme' : 'Voiceover'}</span>
+              Jale Erdem
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── FOOTER ── */}
       <footer>
         <div className="footer-logo">Masal <span>Rehberi</span></div>
