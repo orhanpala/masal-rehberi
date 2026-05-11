@@ -135,6 +135,21 @@ export default function MasalRehberi() {
                     </div>
                   </div>
                 </div>
+                                             {/* 5. GELİŞTİRİCİ İMZASI */}
+                <div style={{ marginTop: '2rem', textAlign: 'center', opacity: 0.8 }}>
+                  <p style={{ fontSize: '0.75rem', color: 'rgba(240, 232, 216, 0.5)', letterSpacing: '1px' }}>
+                    {lang === 'tr' ? 'Geliştirici:' : 'Developer:'} {' '}
+                    <a 
+                      href="https://orhanpala.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      style={{ color: '#c8aa64', textDecoration: 'underline', fontWeight: '500' }}
+                    >
+                      orhanpala.com
+                    </a>
+                  </p>
+                </div>
+
               </div>
 
 
